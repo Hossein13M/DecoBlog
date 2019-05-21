@@ -8,6 +8,7 @@ html,
 body {
     height: 100%;
     box-sizing: border-box;
+    background-color: #f9f9fb;
 }
 
 
@@ -73,13 +74,12 @@ nav ul li {
     background-color: #212429;
     width: 100%;
     height: 60px;
-    padding: 0 3.2%
 }
 
 .menu-bars,
 .logo,
 .social-icons {
-    float: left;
+    /* float: left; */
 }
 
 .menu-bars {
@@ -87,12 +87,11 @@ nav ul li {
 }
 
 .menu-bars .fa-bars {
-    width: 15%;
+    width: 5%;
     color: #ffffff;
+    text-align: center;
     float: left;
-    margin: 0 0px 0 0;
-    /*    margin: 0 35px 10px 35px; */
-    padding: 10% 40px 20px 40px;
+    padding: 22px 41px 22px 35px;
     border-right: 2px solid#3c3c3c;
     border-left: 2px solid#3c3c3c;
 }
@@ -102,22 +101,24 @@ nav ul li {
     float: left;
     width: 20%;
     height: 50%;
-    margin: 0 0 0 25%;
+    padding: 0 0 0 38%;
 }
 
 .social-icons {
     width: 40%;
-    float: left;
-    /*    padding: 0 0 0 13%;*/
+    float: right;
+    position: relative;
+    padding: 0px 1px 0 20px;
 }
 
 .social-icons i {
     text-align: center;
+    position: relative;
     color: #ffffff;
     float: right;
     border-left: 1px solid #3c3c3c;
-    width: 60px;
-    height: 60px;
+    width: 15%;
+    height: 100%;
     line-height: 60px;
 }
 
@@ -125,24 +126,7 @@ nav ul li {
     border-right: 2px solid #3c3c3c;
 }
 
-
-/*
-.slider-background,
-#header-slider{
-    position: ;
-}
-.slider-background{
-    background-color: aqua;
-    width: 100%;
-    height: 100px;
-*/
-
-
-/*}*/
-
 #header-slider {
-    /*    background-image: url(images/topPicture.jpg);*/
-    /*    text-align: center;*/
     margin: 0 auto;
     height: 500px;
     width: 1533px;
@@ -155,9 +139,9 @@ nav ul li {
     width: 20px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 9%;
+    top: 12%;
     z-index: 9999;
-    left: 87%;
+    left: 96%;
 }
 
 #prev {
@@ -166,11 +150,24 @@ nav ul li {
     width: 20px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 22%;
+    top: 27%;
     z-index: 9999;
-    left: 87%;
+    left: 96%;
 }
 
+.text-arrow {
+    position: absolute;
+    transform: rotate(-90deg);
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1000;
+    margin: 220px -19px 5px 1104px;
+    float: right;
+}
+
+
+}
 #subs-form {
     width: 1533px;
     height: auto;
@@ -178,7 +175,6 @@ nav ul li {
     margin: 0 0% 0 3.2%;
     padding: 10px 30px;
 }
-
 #subs-form span {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -186,7 +182,6 @@ nav ul li {
     font-weight: bold;
     font-size: 23px;
 }
-
 #subs-form input[type="text"] {
     width: 450px;
     line-height: 40px;
@@ -195,11 +190,9 @@ nav ul li {
     font-family: 'Montserrat', sans-serif;
     margin-right: 30px;
 }
-
 #subs-form input:hover {
     box-shadow: 0px 0px 5px 2px #94b0ba;
 }
-
 #subs-form input[type="button"] {
     width: 280px;
     height: 44px;
@@ -209,44 +202,35 @@ nav ul li {
     text-transform: uppercase;
 }
 
-
 /*content part*/
-
 #content {
     width: 1533px;
     background: #f9f9fb;
     margin: 20% 9.7%;
 }
-
 #content .post:hover {
     box-shadow: 0px 0px 5px 2px #dbdbdb;
 }
-
 #content .post-with-img:hover {
     box-shadow: 0px 0px 5px 2px #dbdbdb;
 }
-
 #post-footer {
     border-top: 1px solid #f7f7f7;
 }
-
 .post-social-icons {
     float: right;
-    margin-right: 15px;
+    margin-right: 30px;
 }
-
 .post-comment i,
 .post-comment p {
     float: left;
     padding: 5px;
     color: #3c3c3c;
 }
-
 .post-social-icons i {
     color: #3c3c3c;
     padding: 5px;
 }
-
 #content .post {
     width: 23.5%;
     text-transform: uppercase;
@@ -257,28 +241,23 @@ nav ul li {
     line-height: 35px;
     transition: 0.3s ease all;
 }
-
 #content .post-wrapper .post span {
     margin-top: 20px;
     color: black;
     font-size: 12px;
 }
-
 #content .post-wrapper .post h2 {
     font-size: 18px;
 }
-
 #content .post p {
     font-size: 12px;
     line-height: 30px;
     text-align: center;
     padding: 0 1% 0 1%;
 }
-
 #content .readMore-btn:hover {
     box-shadow: 0px 0px 5px 2px #dbdbdb;
 }
-
 #content .readMore-btn {
     word-spacing: 5px;
     text-transform: uppercase;
@@ -294,7 +273,6 @@ nav ul li {
     margin: 10px auto;
     transition: 0.3s ease all;
 }
-
 #content .top-icon {
     background: #212121;
     width: 2%;
@@ -302,14 +280,11 @@ nav ul li {
     margin: -1% 0 0 8.5%;
 }
 
-
 /**/
-
 #content .top-icon i {
     color: #ffffff;
     text-align: center;
 }
-
 #content .post-with-img {
     width: 23.5%;
     margin: 0% 1.5% 1% 1.5%;
@@ -322,12 +297,10 @@ nav ul li {
     font-size: 12px;
     transition: 1s ease all;
 }
-
 #content .post-with-img .img-box {
     background: #f4f4f4;
     height: 260px;
 }
-
 #content .post-with-img .top-icon-with-img {
     background: #212121;
     width: 11%;
@@ -337,15 +310,12 @@ nav ul li {
     top: 50%;
     margin: -7% 0 0 -8.5%;
 }
-
 #content .post-with-img .top-icon-with-img i {
     color: #ffffff;
     text-align: center;
 }
 
-
 /*footer part*/
-
 .footer {
     background-color: #212429;
     float: left;
@@ -353,29 +323,26 @@ nav ul li {
     width: 100%;
     color: #ffffff;
     /* margin-top: 2%; */
+    
     padding: 0px 18% 0% 18%;
     margin: 0 auto;
     position: relative;
     line-height: 11px;
 }
-
 .footer h2 {
     margin-top: 10%;
     margin-bottom: 10%;
 }
-
 .footer p {
     font-size: 13px;
     text-align: left;
     font-family: 'Hind', sans-serif;
 }
-
 .footer .footer-section-about img {
     position: relative;
     width: 100%;
     margin-top: 5%;
 }
-
 .footer .footer-section-about,
 .footer .footer-section-tweets,
 .footer .footer-section-instagram,
@@ -387,18 +354,15 @@ nav ul li {
     padding-right: 15px;
     padding-left: 15px;
 }
-
 .footer-section-tweets i {
     font-size: 13px;
     padding-top: 7px;
     padding-right: 2px;
 }
-
 .footer-section-tweets .tweet-with-icon i,
 .footer-section-tweets p {
     float: left;
 }
-
 .footer .footer-section-about h2,
 .footer-section-tweets h2,
 .footer-section-instagram h2,
@@ -408,11 +372,9 @@ nav ul li {
     text-transform: uppercase;
     font-size: 16px;
 }
-
 .footer-section-instagram h2 {
     margin-bottom: 20px;
 }
-
 .square-box {
     position: relative;
     height: 75px;
@@ -422,7 +384,6 @@ nav ul li {
     margin: 1px;
     float: left;
 }
-
 .footer-section-copyright {
     height: 40px;
     width: 100%;
@@ -434,12 +395,10 @@ nav ul li {
     padding-top: 8px;
     letter-spacing: 2px;
 }
-
 .line,
 .footer-section-comments p {
     float: left;
 }
-
 .line {
     width: 100%;
     height: .5px;
