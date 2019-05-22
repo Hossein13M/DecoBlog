@@ -86,7 +86,7 @@ nav ul li {
     color: #ffffff;
     text-align: center;
     float: left;
-    padding: 22px 41px 22px 35px;
+    padding: 22px 34px 22px 26px;
     border-right: 2px solid#3c3c3c;
     border-left: 2px solid#3c3c3c;
 }
@@ -100,7 +100,7 @@ nav ul li {
 }
 
 .social-icons {
-    width: 40%;
+    width: 30%;
     float: right;
     position: relative;
     padding: 0px 1px 0 20px;
@@ -175,7 +175,7 @@ nav ul li {
     font-weight: bold;
     font-size: 26px;
     width: 15%;
-    padding: 10px 10px 30px 0px;
+    padding: 0px 10px 30px 0px;
     letter-spacing: 3px;
 }
 
@@ -209,21 +209,36 @@ nav ul li {
 /*content part*/
 
 #content {
-    width: 1533px;
+    width: 100%;
     background: #f9f9fb;
-    margin: 20% 9.7%;
+    margin: 5% 0.5% 0% 0.5%;
 }
 
-#content .post:hover {
+#content .post {
+    border: 2x solid #f1f1f3;
+}
+
+#content .post-with-img {
+    border: 2px solid #f1f1f3;
+}
+
+.box-hover:hover {
     box-shadow: 0px 0px 5px 2px #dbdbdb;
 }
 
-#content .post-with-img:hover {
+
+/* #content .post:hover {
     box-shadow: 0px 0px 5px 2px #dbdbdb;
-}
+} */
+
+
+/* #content .post-with-img:hover {
+    box-shadow: 0px 0px 5px 2px #dbdbdb;
+} */
 
 #post-footer {
     border-top: 1px solid #f7f7f7;
+    margin-top: 9%;
 }
 
 .post-social-icons {
@@ -231,10 +246,14 @@ nav ul li {
     margin-right: 30px;
 }
 
+#post-footer .post-comment i {
+    padding: 17px 10px 10px 10px;
+}
+
 .post-comment i,
 .post-comment p {
     float: left;
-    padding: 5px;
+    /* padding: 5px; */
     color: #3c3c3c;
 }
 
@@ -254,29 +273,34 @@ nav ul li {
     transition: 0.3s ease all;
 }
 
-#content .post-wrapper .post span {
+#content span {
     margin-top: 20px;
-    color: black;
+    color: #a7a7a7;
     font-size: 12px;
+    letter-spacing: 2px;
 }
 
-#content .post-wrapper .post h2 {
-    font-size: 18px;
+#content h2 {
+    font-size: 15px;
+    color: #212121;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 
 #content .post p {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 30px;
     text-align: center;
-    padding: 0 1% 0 1%;
+    color: #464646;
+    padding: 5% 1% 1% 1%;
 }
 
-#content .readMore-btn:hover {
-    box-shadow: 0px 0px 5px 2px #dbdbdb;
+#content .btn-hover:hover {
+    box-shadow: 0px 0px 5px 6px #dbdbdb;
 }
 
 #content .readMore-btn {
-    word-spacing: 5px;
+    letter-spacing: 5px;
     text-transform: uppercase;
     border-left: 2px solid #d7d7d7;
     border-right: 2px solid #d7d7d7;
@@ -289,21 +313,40 @@ nav ul li {
     display: block;
     margin: 10px auto;
     transition: 0.3s ease all;
+    height: 40px;
 }
 
 #content .top-icon {
     background: #212121;
-    width: 2%;
-    position: absolute;
-    margin: -1% 0 0 8.5%;
-}
-
-
-/**/
-
-#content .top-icon i {
+    width: 15%;
+    position: relative;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
     color: #ffffff;
     text-align: center;
+}
+
+.post-wrapper-with-img2 .post-with-img {
+    height: 500px;
+}
+
+.post-wrapper2 .post {
+    height: 450px;
+}
+
+.post-wrapper3 {
+    background-image: url(./images/back-image.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+}
+
+.post-wrapper-back-image {
+    float: left;
+    margin-bottom: 20px;
 }
 
 #content .post-with-img {
@@ -321,8 +364,25 @@ nav ul li {
 
 #content .post-with-img .img-box {
     background: #f4f4f4;
-    height: 260px;
+    height: 210px;
 }
+
+.post-wrapper-back-image {
+    float: left;
+}
+
+
+/* .last-row .youtube-post .post-with-img {
+    width: 23.5%;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: white;
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+    transition: 1s ease all;
+} */
 
 #content .post-with-img .top-icon-with-img {
     background: #212121;
@@ -332,11 +392,49 @@ nav ul li {
     left: 50%;
     top: 50%;
     margin: -7% 0 0 -8.5%;
+    font-size: 50px;
 }
 
 #content .post-with-img .top-icon-with-img i {
     color: #ffffff;
     text-align: center;
+}
+
+#content .black-post-wrapper .post {
+    background-color: #212429;
+    margin-left: 1.5%;
+    color: #a9aaab;
+}
+
+#content .black-post-wrapper .post p {
+    color: #a9aaab;
+}
+
+#content .black-post-wrapper .black-top-icon {
+    color: black;
+    background-color: white;
+}
+
+#content .posts .post-wrapper-with-img .post-with-img .white-img-box {
+    height: 210px;
+    background-color: #ffffff;
+}
+
+#content .posts .post-wrapper-with-img .post-with-img .horiz-readMore-btn {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-top: 2px solid #d7d7d7;
+    border-bottom: 2px solid #d7d7d7;
+    border-left: none;
+    border-right: none;
+    background: none;
+    outline: none;
+    color: #212121;
+    padding: 0 5px 0 5px;
+    display: block;
+    margin: 10px auto;
+    transition: 0.3s ease all;
+    height: 40px;
 }
 
 
