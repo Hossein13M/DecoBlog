@@ -134,7 +134,7 @@ nav ul li {
     width: 20px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 12%;
+    top: 7%;
     z-index: 9999;
     left: 96%;
 }
@@ -145,7 +145,7 @@ nav ul li {
     width: 20px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 27%;
+    top: 18%;
     z-index: 9999;
     left: 96%;
 }
@@ -215,7 +215,7 @@ nav ul li {
     width: 100%;
     color: #ffffff;
     margin-bottom: 20%;
-    padding: 0px 18% 0% 18%;
+    padding: 0px 0% 0% 0%;
     margin: 0 auto;
     position: relative;
     line-height: 11px;
@@ -310,8 +310,8 @@ nav ul li {
 
 .row {
     width: 100%;
-    background-color: #d9d9d9;
-    padding: 3% 0% 3% 1%;
+    background-color: #f9f9fb;
+    padding: 4% 0% 0% 1%;
     float: left;
 }
 
@@ -465,11 +465,69 @@ nav ul li {
     border-right: none;
 }
 
-.post-container-with-back-image {
+.last-row-post-container {
     margin: 5% 1% 1% 0;
     float: left;
 }
 
 .post-box-with-back-image {
     background-image: url(./images/back-image.jpg);
+}
+
+.last-row-section {
+    width: 100%;
+    background-color: #f9f9fb;
+    padding: 0% 0% 3% 1%;
+    float: left;
+}
+
+.youtube-player img {
+    width: 100%;
+}
+
+.white-square {
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+
+.black-background {
+    background-color: #212429;
+}
+
+.black-box2 {
+    height: 30px;
+}
+
+.black-box2 span {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    margin: 10px 15px 15px 15px;
+    font-size: 12px;
+}
+
+.black-box3 {
+    height: 250px;
+}
+
+.black-box2 {
+    background-color: #212429;
+}
+
+.circle {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 10%);
+    height: 150px;
+    width: 150px;
+    background-color: #999999;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle-box {
+    height: 500px;
 }
