@@ -258,6 +258,16 @@ nav ul li {
     font-size: 13px;
     padding-top: 7px;
     padding-right: 2px;
+    position: absolute;
+    top: 0%;
+    left: -8%;
+}
+
+
+/* TODO: try fixing this part of code tomorrow and I think I am good to go */
+
+.tweet-with-icon {
+    position: relative;
 }
 
 .footer-section-tweets .tweet-with-icon i,
@@ -424,7 +434,7 @@ nav ul li {
     color: #464646;
     padding: 10px 0 10px 0;
     margin-top: 10px;
-    border-top: 1px solid #f7f7f7;
+    border-top: 2px solid #f7f7f7;
 }
 
 .post-box-leave-comment-left {
