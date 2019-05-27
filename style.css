@@ -36,14 +36,14 @@ body {
 
 nav {
     width: 50%;
-    height: 502px;
+    height: 500px;
     background: #212429;
     color: #ffffff;
     top: 0;
     bottom: 0;
     z-index: 1000;
     position: absolute;
-    margin: 58px;
+    margin: 46px;
     margin-left: 0px;
     transform: translate3d(-100px, 0, 0);
     transition: all 1s ease;
@@ -137,7 +137,7 @@ nav ul li {
     width: 20px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 15%;
+    top: 17%;
     z-index: 9999;
     left: 96.3%;
 }
@@ -318,34 +318,22 @@ nav ul li {
     background-color: #65676a;
 }
 
-.row {
-    width: 100%;
-    background-color: #f9f9fb;
-    padding: 6% 0% 3% 1%;
-    margin: 0 0 1% 0;
-    float: left;
-}
+
+/*  end of footer and start of posts */
 
 .column {
-    float: left
-}
-
-.post-container {
     width: 22.25%;
-    margin: 1% 2% 1% 0;
     float: left;
-    /* min-height: 500px; */
-    background-color: #ffffff;
-    padding-bottom: 5px;
+    height: auto;
+    background-color: #f9f9fb;
+    margin: 5% 1% 2% 1%;
 }
 
-.post-container,
-.post-container-with-image {
-    float: left;
+.column .post-container {
+    margin-top: 35px;
+    height: auto;
+    /* min-height: 1000px; */
 }
-
-
-/* come-back-here */
 
 .empty-box {
     width: 100%;
@@ -363,7 +351,6 @@ nav ul li {
 
 .post-box {
     width: 100%;
-    /* min-height: 300px; */
     padding: 0 10px;
 }
 
@@ -431,8 +418,8 @@ nav ul li {
 
 .post-box-leave-comment {
     width: 100%;
-    margin-top: 15px;
     color: #464646;
+    padding: 10px 0 10px 0;
 }
 
 .post-box-leave-comment-left {
@@ -446,20 +433,16 @@ nav ul li {
     padding: 0 5px;
 }
 
-.post-box-leave-comment-right {
-    float: right;
-}
-
 .post-box-leave-comment-right i {
-    margin-right: 2px;
+    margin-left: 1px;
     padding: 0 5px;
     font-size: 12px;
 }
 
 .full-empty {
     height: 430px;
-    float: left;
-    background-color: white;
+    /* float: left; */
+    background-color: #ffffff;
 }
 
 .black-box {
@@ -492,11 +475,6 @@ nav ul li {
     border-bottom: 2px solid #d9d9d9;
     border-left: none;
     border-right: none;
-}
-
-.last-row-post-container {
-    margin: 5% 1% 1% 0;
-    float: left;
 }
 
 .post-box-with-back-image {
