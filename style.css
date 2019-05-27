@@ -34,14 +34,6 @@ body {
     overflow: hidden;
 }
 
-
-/* #header {
-    width: 1638px;
-    height: 300px;
-    background: #212429;
-    margin: 0px auto;
-} */
-
 nav {
     width: 50%;
     height: 502px;
@@ -74,7 +66,7 @@ nav ul li {
 #top-header {
     background-color: #212429;
     width: 100%;
-    height: 60px;
+    height: 20px;
 }
 
 .menu-bars {
@@ -86,7 +78,7 @@ nav ul li {
     color: #ffffff;
     text-align: center;
     float: left;
-    padding: 22px 34px 22px 26px;
+    padding: 15px 33px 16px 24px;
     border-right: 2px solid#3c3c3c;
     border-left: 2px solid#3c3c3c;
 }
@@ -95,15 +87,15 @@ nav ul li {
     text-align: center;
     float: left;
     width: 20%;
-    height: 50%;
-    padding: 0 0 0 38%;
+    height: 100%;
+    padding: 0 0 40px 38%;
 }
 
 .social-icons {
     width: 30%;
     float: right;
     position: relative;
-    padding: 0px 1px 0 20px;
+    padding: 0px 0px 0 20px;
 }
 
 .social-icons i {
@@ -113,8 +105,8 @@ nav ul li {
     float: right;
     border-left: 1px solid #3c3c3c;
     width: 15%;
-    height: 100%;
-    line-height: 60px;
+    height: 120%;
+    padding: 19px 10px 10px 10px;
 }
 
 .social-icons i:nth-child(1) {
@@ -134,9 +126,9 @@ nav ul li {
     width: 20px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 7%;
+    top: 6.5%;
     z-index: 9999;
-    left: 96%;
+    left: 96.3%;
 }
 
 #prev {
@@ -145,9 +137,9 @@ nav ul li {
     width: 20px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 18%;
+    top: 15%;
     z-index: 9999;
-    left: 96%;
+    left: 96.3%;
 }
 
 .text-arrow {
@@ -157,8 +149,9 @@ nav ul li {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     z-index: 1000;
-    margin: 220px -19px 5px 1104px;
+    margin: 201px -17px 5px 1062px;
     float: right;
+    width: 200px;
 }
 
 #subs-form {
@@ -173,14 +166,14 @@ nav ul li {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    font-size: 26px;
-    width: 15%;
+    font-size: 20px;
+    width: 25%;
     padding: 0px 10px 30px 0px;
     letter-spacing: 3px;
 }
 
 #subs-form input[type="text"] {
-    width: 88%;
+    width: 95%;
     line-height: 40px;
     outline: none;
     border: none;
@@ -196,8 +189,8 @@ nav ul li {
 }
 
 #subs-form input[type="button"] {
-    width: 128%;
-    height: 44px;
+    width: 148%;
+    height: 50px;
     background-color: #212121;
     color: #f9f9fb;
     border: none;
@@ -215,7 +208,7 @@ nav ul li {
     width: 100%;
     color: #ffffff;
     margin-bottom: 20%;
-    padding: 0px 0% 0% 0%;
+    padding: 0px 21% 0% 18%;
     margin: 0 auto;
     position: relative;
     line-height: 11px;
@@ -238,12 +231,20 @@ nav ul li {
     margin-top: 5%;
 }
 
+.footer-section-about p {
+    line-height: 24px;
+}
+
+.footer-section-tweets p {
+    line-height: 24px;
+}
+
 .footer .footer-section-about,
 .footer .footer-section-tweets,
 .footer .footer-section-instagram,
 .footer .footer-section-comments {
     float: left;
-    line-height: 30px;
+    line-height: 23px;
     width: 25%;
     margin-bottom: 45px;
     padding-right: 15px;
@@ -268,7 +269,7 @@ nav ul li {
     text-align: left;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .footer-section-instagram h2 {
@@ -295,11 +296,19 @@ nav ul li {
     position: relative;
     padding-top: 8px;
     letter-spacing: 2px;
+    font-family: 'Hind', sans-serif;
 }
 
 .line,
 .footer-section-comments p {
     float: left;
+}
+
+.footer-section-comments span {
+    float: left;
+    font-family: 'Hind', sans-serif;
+    font-size: 13px;
+    margin-bottom: 10px;
 }
 
 .line {
@@ -311,13 +320,18 @@ nav ul li {
 .row {
     width: 100%;
     background-color: #f9f9fb;
-    padding: 4% 0% 0% 1%;
+    padding: 6% 0% 3% 1%;
+    margin: 0 0 1% 0;
     float: left;
 }
 
+.column {
+    float: left
+}
+
 .post-container {
-    width: 23.25%;
-    margin: 1% 1% 1% 0;
+    width: 22.25%;
+    margin: 1% 2% 1% 0;
     float: left;
     /* min-height: 500px; */
     background-color: #ffffff;
@@ -335,7 +349,15 @@ nav ul li {
 .empty-box {
     width: 100%;
     height: 210px;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
+}
+
+.black-empty-box-text {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 15px;
 }
 
 .post-box {
@@ -412,7 +434,9 @@ nav ul li {
 }
 
 .post-box-leave-comment-left {
-    float: left
+    float: left;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .post-box-leave-comment-left span {
@@ -425,18 +449,21 @@ nav ul li {
 }
 
 .post-box-leave-comment-right i {
-    padding: 0 3px;
+    margin-right: 2px;
+    padding: 0 5px;
+    font-size: 12px;
 }
 
 .full-empty {
     height: 430px;
     float: left;
+    background-color: white;
 }
 
 .black-box {
     background-color: #212429;
     padding-bottom: 0px;
-    ;
+    text-align: center
 }
 
 .black-icon i {
@@ -454,8 +481,8 @@ nav ul li {
 }
 
 .white-empty-box {
-    background-color: #fff;
-    height: 100px;
+    background-color: white;
+    height: 250px;
 }
 
 .horiz-border input {
@@ -474,6 +501,10 @@ nav ul li {
     background-image: url(./images/back-image.jpg);
 }
 
+.post-box-readmore-btn input {
+    background-color: transparent !important;
+}
+
 .last-row-section {
     width: 100%;
     background-color: #f9f9fb;
@@ -483,6 +514,19 @@ nav ul li {
 
 .youtube-player img {
     width: 100%;
+    z-index: 100;
+}
+
+.youtube-background {
+    background-color: #f4f4f4;
+}
+
+.youtube-background .post-box {
+    background-color: #ffffff;
+}
+
+.youtube-background .post-box .post-box-leave-comment {
+    background-color: #ffffff;
 }
 
 .white-square {
@@ -500,11 +544,14 @@ nav ul li {
 }
 
 .black-box2 span {
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    margin: 10px 15px 15px 15px;
+    /* margin: 10px 15px 15px 15px; */
     font-size: 12px;
+    text-align: center;
+}
+
+.empty-box span {
+    text-align: center;
 }
 
 .black-box3 {
