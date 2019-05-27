@@ -174,13 +174,13 @@ nav ul li {
 }
 
 #subs-form input[type="text"] {
-    width: 95%;
+    width: 350px;
     line-height: 50px;
     outline: none;
     border: none;
     font-family: 'Montserrat', sans-serif;
-    padding-right: 150px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
     text-transform: uppercase;
     text-indent: 10px;
 }
@@ -190,13 +190,15 @@ nav ul li {
 }
 
 #subs-form input[type="button"] {
-    width: 148%;
+    width: 128%;
     height: 50px;
     background-color: #212121;
     color: #f9f9fb;
     border: none;
     text-transform: uppercase;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 5px;
+    letter-spacing: 2px;
+    font-size: 14px;
 }
 
 
@@ -332,6 +334,7 @@ nav ul li {
 .column .post-container {
     margin-top: 35px;
     height: auto;
+    box-shadow: 1px 1px 1px 1px #f5f5f7;
     /* min-height: 1000px; */
 }
 
@@ -377,7 +380,7 @@ nav ul li {
     margin-top: 10px;
     display: block;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .post-box-header span h3 {
@@ -420,6 +423,8 @@ nav ul li {
     width: 100%;
     color: #464646;
     padding: 10px 0 10px 0;
+    margin-top: 10px;
+    border-top: 1px solid #f7f7f7;
 }
 
 .post-box-leave-comment-left {
@@ -434,8 +439,8 @@ nav ul li {
 }
 
 .post-box-leave-comment-right i {
-    margin-left: 1px;
-    padding: 0 5px;
+    margin-left: 15px;
+    padding: 0 0.5px;
     font-size: 12px;
 }
 
@@ -483,6 +488,7 @@ nav ul li {
 
 .post-box-readmore-btn input {
     background-color: transparent !important;
+    margin-bottom: 20px;
 }
 
 .last-row-section {
@@ -535,6 +541,10 @@ nav ul li {
 
 .black-box2 {
     background-color: #212429;
+}
+
+.audio-longer-box {
+    height: 450px;
 }
 
 .circle {
